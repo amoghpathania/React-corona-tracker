@@ -1,8 +1,5 @@
 Created Using React + Material UI and https://covid19.mathdro.id/api 
 
-# Click for [Deployed App]().
-
-
 In the project directory, you can run:
 
 ### `npm start`
