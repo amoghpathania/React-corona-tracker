@@ -26,13 +26,13 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" href="https://www.linkedin.com/in/a1bhi2/">
+          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" href="https://www.linkedin.com/in/amogh58/">
             <LinkedInIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Abhishek Gupta
+            Amogh Singh Pathania
           </Typography>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" href="https://github.com/a1bhi2/">
+          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" href="https://github.com/amoghpathania/">
             <GitHubIcon />
           </IconButton>
         </Toolbar>
