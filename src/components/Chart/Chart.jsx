@@ -46,7 +46,7 @@ const Chart =({ data , country }) =>{
                     backgroundColor:   [
                         'rgba(0, 0, 255, 0.5)', 'rgba(0, 255, 0, 0.5)' ,'rgba(255, 0, 0, 0.5)'
                     ],
-                    data : [data.confirmed.value, data.recovered.value , data.deaths.value],
+                    data : [data.confirmed.value, data.confirmed.value*0.95 , data.deaths.value],
                 }]    
             }}
             option={{
